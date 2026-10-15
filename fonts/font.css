@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Inter';
+  src: url(./Inter-Regular.woff2) format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'KyivTypeSans';
+  src: url(./KyivTypeSans-Medium.woff2) format('woff2');
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./Montserrat-Bold.woff2) format('woff2');
+  font-weight: bold;
+  font-display: swap;
+}
