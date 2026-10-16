@@ -2,14 +2,21 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   max-inline-size: 1440px;
-  margin: 0 auto;
   font-family: Inter, sans-serif;
-  overflow-x: hidden;
   color: #F5F5F5;
+  background-color: #222021;
+  margin: 0 auto;
+}
+
+html, 
+body{
+ overflow-x: hidden;
 }
 
 h1,

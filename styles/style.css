@@ -1,19 +1,9 @@
-.content_bg{
-    position: relative;
-    z-index: 2;
-    background-color: #222021;
-    width: 1440px;
-    min-height: 160px;
-}
-
-.content_bg::before{
-    content: "";
-    background-image: url('../images/imag.png');
-    background-repeat: no-repeat;
+.background_hero{
     position: absolute;
-    z-index: 1;
-    min-width: 980px;
-    height: 1080px
+    z-index: 0;
+  background-image: url("../images/imag.png");
+  width: 908px;
+  height: 1080px;
 }
 
 .header{
@@ -21,11 +11,10 @@
     flex-direction: row;
    justify-content: space-between;
    align-items: center;
-    position: absolute;
-    left: 0;
-     right: 0;
-    z-index: 2;
+   position: relative;
+   z-index: 1;
     padding: 52px 102px;
+    width: 100%;
 }
 
 .header_list_items{
@@ -37,4 +26,83 @@ gap: 57px;
 .header-text-nav{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+}
+
+.hero-card{
+    display: flex;
+    margin-left: auto;
+    position: relative;
+      z-index: 1;
+    width: 1245px;
+    height: 714px;
+    background-color: #1E0C06;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 30px;
+}
+
+.hero-card__content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+      z-index: 1;
+    gap: 30px;
+    padding: 75px 50px 102px 50px;
+    max-width: 650px;
+}
+
+.hero-card__content::after {
+    content: "";             
+    position: absolute;
+      z-index: 1;
+    right: 0;                
+    top: 43px;               
+    bottom: 150px;           
+    width: 1px;               
+    background-color: #F5F5F5; 
+}
+
+.hero-card__title{
+ font-size: 90px;
+ text-transform: uppercase;
+ font-family: KyivTypeSans;
+}
+
+.hero-card__text{
+  font-size: 30px;
+  color: #FFDBBB;
+  max-width: 350px;
+}
+
+.hero-card__btn{
+ margin-right: auto;
+ background-color: #728BAD;
+ border-radius: 30px;
+ color: #F5F5F5;
+ font-size: 30px;
+ font-weight: 700;
+ padding: 11px 70px;
+ margin-top: 20px;
+}
+
+.hero-card-picture{
+    position: relative;
+    min-width: 645px;
+}
+
+.hero-picture1{
+    position: absolute;
+    top: 43px;
+    right: 115px;
+}
+
+.hero-picture2{
+    position: absolute;
+    bottom: 193px;
+    left: 46px;
+}
+
+.hero-picture3{
+    position: absolute;
+    bottom: 57px;
+    right: 115px;
 }
