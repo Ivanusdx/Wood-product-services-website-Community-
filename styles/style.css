@@ -17,30 +17,30 @@
     width: 100%;
 }
 
-.header_list_items{
+.header_list-items{
 display: flex;
 flex-direction: row;
 gap: 57px;
 }
 
-.header-text-nav{
+.header_text-nav{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
 
-.hero-card{
+.hero_card{
     display: flex;
     margin-left: auto;
     position: relative;
       z-index: 1;
     width: 1245px;
     height: 714px;
-    background-color: #1E0C06;
+    background-color: var(--hero-card-bg-color);
     border-bottom-left-radius: 20px;
     border-top-left-radius: 30px;
 }
 
-.hero-card__content{
+.hero_card-content{
     display: flex;
     flex-direction: column;
     position: relative;
@@ -50,7 +50,7 @@ gap: 57px;
     max-width: 650px;
 }
 
-.hero-card__content::after {
+.hero_card-content::after {
     content: "";             
     position: absolute;
       z-index: 1;
@@ -58,51 +58,97 @@ gap: 57px;
     top: 43px;               
     bottom: 150px;           
     width: 1px;               
-    background-color: #F5F5F5; 
+    background-color: var(--hero-line-bg-color); 
 }
 
-.hero-card__title{
+.title{
  font-size: 90px;
  text-transform: uppercase;
- font-family: KyivTypeSans;
+ font-family: KyivTypeSans, sans-serif;
 }
 
-.hero-card__text{
+.hero_card-text{
   font-size: 30px;
-  color: #FFDBBB;
+  color: var(--hero-card-text-color);
   max-width: 350px;
 }
 
-.hero-card__btn{
+.hero_card-btn{
  margin-right: auto;
- background-color: #728BAD;
+ background-color: var( --button-bg-color);
  border-radius: 30px;
- color: #F5F5F5;
+ color: var(--text-color);
  font-size: 30px;
  font-weight: 700;
  padding: 11px 70px;
  margin-top: 20px;
 }
 
-.hero-card-picture{
+.hero_card-picture{
     position: relative;
     min-width: 645px;
 }
 
-.hero-picture1{
+.hero_picture1{
     position: absolute;
     top: 43px;
     right: 115px;
 }
 
-.hero-picture2{
+.hero_picture2{
     position: absolute;
     bottom: 193px;
     left: 46px;
 }
 
-.hero-picture3{
+.hero_picture3{
     position: absolute;
     bottom: 57px;
     right: 115px;
+}
+
+.wood_types{
+    position: relative;
+     z-index: 1;
+     padding: 380px 126px 126px 126px;
+}
+
+.wood_types-title{
+    min-width: 150px;
+}
+
+.wood_types_list-items{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ margin-top: 125px;
+}
+
+.wood_types_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+}
+
+.wood_types_items-titile{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.wood_types_list-characteristic{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.wood_types_item-characteristic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.main_text{
+    font-size: 30px;
 }

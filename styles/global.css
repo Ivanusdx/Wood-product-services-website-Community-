@@ -9,8 +9,8 @@
 body {
   max-inline-size: 1440px;
   font-family: Inter, sans-serif;
-  color: #F5F5F5;
-  background-color: #222021;
+  color: var(--text-color);
+  background-color: var(--bg-color-browser);
   margin: 0 auto;
 }
 

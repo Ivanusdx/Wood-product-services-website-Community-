@@ -1,40 +1,121 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./images/favicon.ico" sizes="32x32" />
-    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="./fonts/font.css">
-    <link rel="stylesheet" href="./styles/global.css">
-    <link rel="stylesheet" href="./styles/variables.css">
-    <link rel="stylesheet" href="./styles/style.css">
+<!doctype html>
+<html lang = "en">
+  <head>
+    <meta charset = "UTF-8" />
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0" />
+    <link rel = "icon" href = "./images/favicon.ico" sizes = "32x32" />
+    <link rel = "icon" href = "./images/favicon.svg" type = "image/svg+xml" />
+    <link rel = "stylesheet" href = "./fonts/font.css" />
+    <link rel = "stylesheet" href = "./styles/global.css" />
+    <link rel = "stylesheet" href = "./styles/variables.css" />
+    <link rel = "stylesheet" href = "./styles/style.css" />
     <title>Wood_product</title>
-</head>
-<body>
-    <div class="background_hero"></div>
-     <header class="header">
-     <img src="./images/logo.svg" alt="BIO CWT Logo">
-     <ul class="header_list_items">
-        <li><a href="#0" class="header-text-nav">Gallery</a></li>
-        <li><a href="#0" class="header-text-nav">Prices for services</a></li>
-        <li><a href="#0" class="header-text-nav">About us</a></li>
-        <li><a href="#0" class="header-text-nav">Contact</a></li>
-     </ul>
+  </head>
+  <body>
+    <div class = "background_hero"></div>
+    <header class = "header">
+      <img src = "./images/logo.svg" alt = "BIO CWT Logo" />
+      <ul class = "header_list-items">
+        <li><a href = "#0" class = "header_text-nav">Gallery</a></li>
+        <li><a href = "#0" class = "header_text-nav">Prices for services</a></li>
+        <li><a href = "#0" class = "header_text-nav">About us</a></li>
+        <li><a href = "#0" class = "header_text-nav">Contact</a></li>
+      </ul>
     </header>
     <main>
-        <section class="hero-card">
-            <div class="hero-card__content">
-              <h1 class="hero-card__title">Solid wood products</h1>
-              <p class="hero-card__text">Oak, beech, ash from <strong>1700 CZK</strong> per m3</p>
-              <button class="hero-card__btn">Order</button>
-            </div>
-            <div class="hero-card-picture">
-              <img src="./images/hero-picture1.svg" alt="" class="hero-picture1">
-              <img src="./images/hero-picture2.svg" alt="" class="hero-picture2">
-              <img src="./images/hero-picture3.svg" alt="" class="hero-picture3">
-            </div>
-        </section>
+      <section class = "hero_card">
+        <div class = "hero_card-content">
+          <h1 class = "title">Solid wood products</h1>
+          <p class = "hero_card-text">
+            Oak, beech, ash from <strong>1700 CZK</strong> per m3
+          </p>
+          <button class = "hero_card-btn">Order</button>
+        </div>
+        <div class = "hero_card-picture">
+          <img src = "./images/hero-picture1.png" alt = "" class = "hero_picture1" />
+          <img src = "./images/hero-picture2.png" alt = "" class = "hero_picture2" />
+          <img src = "./images/hero-picture3.png" alt = "" class = "hero_picture3" />
+        </div>
+      </section>
+      <section class = "wood_types">
+        <h2 class = "title wood_types-title">The wood we work with</h2>
+        <ul class = "wood_types_list-items">
+          <li>
+            <article class = "wood_types_items">
+              <img src = "./images/old-wood-grain-type1.png" alt = "Oak wood texture" />
+              <h3 class = "wood_types_items-titile">Oak</h3>
+              <ul class = "wood_types_list-characteristic">
+                <li class = "wood_types_item-characteristic">
+                  <svg xmlns = "http://www.w3.org/2000/svg" width = "25" height = "25" fill = "none" viewBox = "0 0 25 25" class = "style_symbol" aria-hidden = "true">
+                    <path fill = "#ffc099" d = "M23.745.336a2.083 2.083 0 0 0-2.881.614L9.19 18.943 3.497 13.68A2.083 2.083 0 0 0 .67 16.74l7.475 6.91s.214.185.314.25a2.083 2.083 0 0 0 2.882-.614L24.36 3.217a2.08 2.08 0 0 0-.615-2.881" />
+                  </svg>
+                  <p class = "main_text">Durability</p>
+                </li>
+                <li class = "wood_types_item-characteristic">
+                  <svg xmlns = "http://www.w3.org/2000/svg" width = "25" height = "25" fill = "none" viewBox = "0 0 25 25" class = "style_symbol" aria-hidden = "true">
+                    <path fill = "#ffc099" d = "M23.745.336a2.083 2.083 0 0 0-2.881.614L9.19 18.943 3.497 13.68A2.083 2.083 0 0 0 .67 16.74l7.475 6.91s.214.185.314.25a2.083 2.083 0 0 0 2.882-.614L24.36 3.217a2.08 2.08 0 0 0-.615-2.881" />
+                  </svg>
+                  <p class = "main_text">Beautiful texture</p>
+                </li>
+                <li class = "wood_types_item-characteristic">
+                  <svg xmlns = "http://www.w3.org/2000/svg" width = "25" height = "25" fill = "none" viewBox = "0 0 25 25" class = "style_symbol" aria-hidden = "true">
+                    <path fill = "#ffc099" d = "M23.745.336a2.083 2.083 0 0 0-2.881.614L9.19 18.943 3.497 13.68A2.083 2.083 0 0 0 .67 16.74l7.475 6.91s.214.185.314.25a2.083 2.083 0 0 0 2.882-.614L24.36 3.217a2.08 2.08 0 0 0-.615-2.881" />
+                  </svg>
+                  <p class = "main_text">Water resistance</p>
+                </li>
+                <li class = "wood_types_item-characteristic">
+                  <svg xmlns = "http://www.w3.org/2000/svg" width = "20" height = "20" fill = "none" viewBox = "0 0 20 20" class = "style_symbol" aria-hidden = "true">
+                    <path fill = "#ffc099" d = "m2.843.468 6.69 6.69L16.19.504A1.6 1.6 0 0 1 17.334 0a1.734 1.734 0 0 1 1.733 1.733 1.56 1.56 0 0 1-.468 1.144l-6.743 6.656 6.743 6.743c.286.28.453.658.468 1.057a1.734 1.734 0 0 1-1.733 1.734 1.6 1.6 0 0 1-1.196-.468l-6.604-6.691-6.674 6.673a1.6 1.6 0 0 1-1.126.486A1.734 1.734 0 0 1 0 17.333a1.56 1.56 0 0 1 .468-1.144l6.743-6.656L.468 2.791A1.56 1.56 0 0 1 0 1.733 1.733 1.733 0 0 1 1.734 0c.416.005.814.173 1.109.468" />
+                  </svg>
+                  <p class = "main_text">Expensive</p>
+                </li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article class = "wood_types_items">
+              <img src = "./images/old-wood-grain-type2.png" alt = "Buk wood texture" />
+              <h3 class = "wood_types_items-titile">Buk</h3>
+              <ul class = "wood_types_list-characteristic">
+                <li class = "wood_types_item-characteristic">
+                  <svg xmlns = "http://www.w3.org/2000/svg" width = "25" height = "25" fill = "none" viewBox = "0 0 25 25" class = "style_symbol" aria-hidden = "true">
+                    <path fill = "#ffc099" d = "M23.745.336a2.083 2.083 0 0 0-2.881.614L9.19 18.943 3.497 13.68A2.083 2.083 0 0 0 .67 16.74l7.475 6.91s.214.185.314.25a2.083 2.083 0 0 0 2.882-.614L24.36 3.217a2.08 2.08 0 0 0-.615-2.881" />
+                  </svg>
+                  <p class = "main_text"> Durability</p>
+                </li>
+                <li class = "wood_types_item-characteristic">
+                  <svg xmlns = "http://www.w3.org/2000/svg" width = "20" height = "20" fill = "none" viewBox = "0 0 20 20" class = "style_symbol" aria-hidden = "true">
+                    <path fill = "#ffc099" d = "m2.843.468 6.69 6.69L16.19.504A1.6 1.6 0 0 1 17.334 0a1.734 1.734 0 0 1 1.733 1.733 1.56 1.56 0 0 1-.468 1.144l-6.743 6.656 6.743 6.743c.286.28.453.658.468 1.057a1.734 1.734 0 0 1-1.733 1.734 1.6 1.6 0 0 1-1.196-.468l-6.604-6.691-6.674 6.673a1.6 1.6 0 0 1-1.126.486A1.734 1.734 0 0 1 0 17.333a1.56 1.56 0 0 1 .468-1.144l6.743-6.656L.468 2.791A1.56 1.56 0 0 1 0 1.733 1.733 1.733 0 0 1 1.734 0c.416.005.814.173 1.109.468" />
+                  </svg>
+                  <p class = "main_text">Hard to handle</p>
+                </li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article class = "wood_types_items">
+              <img src = "./images/old-wood-grain-type3.png" alt = "Ash wood texture" />
+              <h3 class = "wood_types_items-titile">Ash</h3>
+              <ul class = "wood_types_list-characteristic">
+                <li class = "wood_types_item-characteristic">
+                  <svg xmlns = "http://www.w3.org/2000/svg" width = "25" height = "25" fill = "none" viewBox = "0 0 25 25" class = "style_symbol" aria-hidden = "true">
+                    <path fill = "#ffc099" d = "M23.745.336a2.083 2.083 0 0 0-2.881.614L9.19 18.943 3.497 13.68A2.083 2.083 0 0 0 .67 16.74l7.475 6.91s.214.185.314.25a2.083 2.083 0 0 0 2.882-.614L24.36 3.217a2.08 2.08 0 0 0-.615-2.881" />
+                  </svg>
+                  <p class = "main_text">Durability</p>
+                </li>
+                <li class = "wood_types_item-characteristic">
+                  <svg xmlns = "http://www.w3.org/2000/svg" width = "20" height = "20" fill = "none" viewBox = "0 0 20 20" class = "style_symbol" aria-hidden = "true">
+                    <path fill = "#ffc099" d = "m2.843.468 6.69 6.69L16.19.504A1.6 1.6 0 0 1 17.334 0a1.734 1.734 0 0 1 1.733 1.733 1.56 1.56 0 0 1-.468 1.144l-6.743 6.656 6.743 6.743c.286.28.453.658.468 1.057a1.734 1.734 0 0 1-1.733 1.734 1.6 1.6 0 0 1-1.196-.468l-6.604-6.691-6.674 6.673a1.6 1.6 0 0 1-1.126.486A1.734 1.734 0 0 1 0 17.333a1.56 1.56 0 0 1 .468-1.144l6.743-6.656L.468 2.791A1.56 1.56 0 0 1 0 1.733 1.733 1.733 0 0 1 1.734 0c.416.005.814.173 1.109.468" />
+                  </svg>
+                  <p class = "main_text">Hard to handle</p>
+                </li>
+              </ul>
+            </article>
+          </li>
+        </ul>
+      </section>
     </main>
-</body>
+  </body>
 </html>
