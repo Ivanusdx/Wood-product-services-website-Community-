@@ -1,8 +1,10 @@
-:root{
-     --bg-color-browser: #222021;
-     --hero-card-bg-color: #1E0C06;
-     --hero-line-bg-color: #F5F5F5; 
-     --hero-card-text-color: #FFDBBB;
-     --button-bg-color: #728BAD;
-     --text-color: #F5F5F5; 
+:root {
+  --bg-color-browser: #222021;
+  --hero-card-bg-color: #1e0c06;
+  --hero-line-bg-color: #f5f5f5;
+  --hero-card-text-color: #ffdbbb;
+  --button-bg-color: #728bad;
+  --text-color: #f5f5f5;
+  --button-circle-color: #728bad;
+  --button-active-bg-color: #d5dcee;
 }
