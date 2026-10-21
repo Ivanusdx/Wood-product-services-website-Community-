@@ -1,10 +1,11 @@
 :root {
   --bg-color-browser: #222021;
-  --hero-card-bg-color: #1e0c06;
+  --card-bg-color: #1e0c06;
   --hero-line-bg-color: #f5f5f5;
   --hero-card-text-color: #ffdbbb;
   --button-bg-color: #728bad;
   --text-color: #f5f5f5;
   --button-circle-color: #728bad;
   --button-active-bg-color: #d5dcee;
+  --border-pucture-color: #1e0c06;
 }

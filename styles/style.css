@@ -34,10 +34,10 @@
   position: relative;
   z-index: 1;
   width: 1245px;
-  height: 714px;
+  min-height: 700px;
   margin-bottom: 414px;
-  background-color: var(--hero-card-bg-color);
-  border-bottom-left-radius: 20px;
+  background-color: var(--card-bg-color);
+  border-bottom-left-radius: 30px;
   border-top-left-radius: 30px;
 }
 
@@ -257,4 +257,55 @@
   flex-direction: column;
   gap: 46px;
   max-width: 430px;
+}
+
+.company_info {
+  position: relative;
+  margin: 294px 115px 0px 0px;
+}
+
+.company_info_card {
+  display: flex;
+  flex-direction: row;
+  gap: 61px;
+  background-color: var(--card-bg-color);
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  width: 100%;
+  height: 775px;
+}
+
+.company_info_text {
+  display: flex;
+  flex-direction: column;
+  gap: 67px;
+  padding-top: 44px;
+  margin-left: 243px;
+}
+
+.company_text {
+  max-width: 510px;
+}
+
+.company_picture1 {
+  position: absolute;
+  z-index: 2;
+  top: 167px;
+  right: 144px;
+  border: 10px solid var(--border-pucture-color);
+  border-radius: 55px;
+}
+
+.company_picture2 {
+  position: absolute;
+  z-index: 1;
+  top: 67px;
+  right: 70px;
+}
+
+.company_picture3 {
+  position: absolute;
+  z-index: 2;
+  bottom: 31px;
+  right: 102px;
 }
