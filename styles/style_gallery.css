@@ -1,0 +1,274 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 52px 102px;
+  width: 100%;
+  background-color: var(--header-nav-bg-color);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: var(--header-box-shadow-color);
+}
+
+.header_list-items {
+  display: flex;
+  flex-direction: row;
+  gap: 57px;
+}
+
+.header_text-nav {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.btn-style {
+  background-color: var(--button-bg-color);
+  border-radius: 30px;
+  color: var(--text-color);
+  font-size: 30px;
+  font-weight: 700;
+  padding: 11px 70px;
+}
+
+.btn-style:hover {
+  color: var(--hover-button-text-color);
+  background-color: var(--hover-button-bg-color);
+}
+
+.title {
+  font-size: 90px;
+  text-transform: uppercase;
+  font-family: KyivTypeSans, sans-serif;
+}
+
+.wood_types {
+  position: relative;
+  z-index: 1;
+  margin-left: 126px;
+  margin-right: 126px;
+  margin-top: 236px;
+}
+
+.wood_types-title {
+  min-width: 150px;
+  margin-left: 117px;
+}
+
+.wood_types_list-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 125px;
+}
+
+.wood_types_items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 38px;
+}
+
+.wood_types_items-titile {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.wood_types_list-characteristic {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.wood_types_item-characteristic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.main_text {
+  font-size: 30px;
+}
+
+.slider {
+  margin-top: 120px;
+}
+
+.slider_title {
+  margin-left: 238px;
+  margin-bottom: 136px;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.slider-block {
+  width: 1130px;
+  height: 754px;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  height: 100%;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 30px;
+}
+
+.arrow {
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.arrow:hover {
+  transform: scale(1.1);
+}
+
+.slider-circles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 18px;
+}
+
+.button-circle {
+  width: 26px;
+  height: 26px;
+  border: 1px solid var(--button-circle-color);
+  border-radius: 50%;
+  background-color: transparent;
+  margin-top: 26px;
+}
+
+.active {
+  background-color: var(--button-active-bg-color);
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  margin: 192px 130px 109px 102px;
+}
+
+.questions_title {
+  text-align: end;
+}
+
+.questions_shape-filling {
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+}
+
+.questions_fields {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  position: relative;
+}
+
+.questions_style-fields {
+  background-color: transparent;
+  min-width: 598px;
+  color: var(--input-text-color);
+  border: 3px solid var(--input-border-color);
+  border-radius: 20px;
+  padding: 10px 17px;
+  outline: none;
+}
+
+.questions_style-fields:hover {
+  background-color: var(--hover-input-bg-color);
+  border: 3px solid var(--hover-input-border-color);
+  color: var(--hover-input-text-color);
+}
+
+.questions_last-field {
+  font-family: "Inter", sans-serif;
+  height: 257px;
+  resize: vertical;
+}
+
+.questions_fields-button {
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.questions_cover {
+  position: absolute;
+  z-index: 1;
+  left: 650px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.questions_cover-text {
+  text-indent: 23px;
+  max-width: 546px;
+  line-height: 27px;
+  margin-bottom: 220px;
+  line-height: 130%;
+}
+
+.questions_cover-picture {
+  width: 477px;
+  height: 482px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  gap: 58px;
+  width: 100%;
+  height: 301px;
+  padding: 70px 102px;
+  box-shadow: var(--footer-box-shadow-color);
+  background-color: var(--bg-color-footer);
+}
+
+.footer_block {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.footer_info-company {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer_block-address {
+  padding-left: 30px;
+}
+
+.footer_text {
+  font-size: 20px;
+}
