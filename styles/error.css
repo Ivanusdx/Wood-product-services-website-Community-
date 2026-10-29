@@ -1,0 +1,69 @@
+.background_hero {
+  position: absolute;
+  z-index: 0;
+  background-image: url("../images/imag.png");
+  width: 908px;
+  height: 1080px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  padding: 52px 102px;
+  width: 100%;
+}
+
+.header_list-items {
+  display: flex;
+  flex-direction: row;
+  gap: 57px;
+}
+
+.header_text-nav {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.error_web {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.error_number {
+  font-size: 500px;
+  font-family: KyivTypeSans, sans-serif;
+  line-height: 0.1;
+}
+
+.error_web-title {
+  font-size: 90px;
+  font-family: KyivTypeSans, sans-serif;
+  padding-bottom: 32px;
+}
+
+.error_web-text {
+  font-size: 30px;
+  color: var(--error-text-color);
+  padding-bottom: 42px;
+}
+
+.btn-style {
+  background-color: var(--button-bg-color);
+  border-radius: 30px;
+  color: var(--text-color);
+  font-size: 30px;
+  font-weight: 700;
+  padding: 11px 70px;
+}
+
+.btn-style:hover {
+  color: var(--hover-button-text-color);
+  background-color: var(--hover-button-bg-color);
+}

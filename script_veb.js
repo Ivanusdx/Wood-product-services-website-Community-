@@ -58,3 +58,7 @@ slider.addEventListener("mouseenter", stopAutoPlay);
 
 // Возобновляем автопрокрутку, когда пользователь убирает курсор
 slider.addEventListener("mouseleave", startAutoPlay);
+
+
+
+
