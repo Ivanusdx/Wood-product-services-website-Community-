@@ -59,6 +59,18 @@ slider.addEventListener("mouseenter", stopAutoPlay);
 // Возобновляем автопрокрутку, когда пользователь убирает курсор
 slider.addEventListener("mouseleave", startAutoPlay);
 
+const links = document.querySelectorAll('.header_text-nav');
+const saved = localStorage.getItem('activeNav');
 
+links.forEach(link => {
+  if (link.textContent.trim() === saved) {
+    link.classList.add('active_text-nav');
+  }
+  link.addEventListener('click', () => {
+    links.forEach(l => l.classList.remove('active_text-nav'));
+    link.classList.add('active_text-nav');
+    localStorage.setItem('activeNav', link.textContent.trim());
+  });
+});
 
 

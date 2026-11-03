@@ -22,6 +22,11 @@
   font-size: 20px;
 }
 
+.active_text-nav{
+  color: var(--hover-nav-text-color);
+}
+
+
 .btn-style {
   background-color: var(--button-bg-color);
   border-radius: 30px;

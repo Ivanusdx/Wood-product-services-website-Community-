@@ -17,6 +17,10 @@
   gap: 57px;
 }
 
+.active_text-nav{
+  color: var(--hover-nav-text-color);
+}
+
 .header_text-nav {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
